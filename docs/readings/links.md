@@ -1,0 +1,1 @@
+- 도시와 야망 - 폴 그레이엄 (https://blog.naver.com/happy_alpaca/221347038144)
