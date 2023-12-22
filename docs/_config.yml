@@ -24,10 +24,8 @@ github_username: kyeru
 
 # Build settings
 # markdown: kramdown
-# theme: minima
-# plugins:
-#   - jekyll-feed
-remote_theme: sighingnow/jekyll-gitbook
+theme: monophase
+# remote_theme: sighingnow/jekyll-gitbook
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
