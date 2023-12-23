@@ -27,7 +27,8 @@ github_username: kyeru
 # remote_theme: sighingnow/jekyll-gitbook
 plugins:
   - jekyll-remote-theme
-remote_theme: zivhub/monophase@main
+# remote_theme: zivhub/monophase@main
+remote_theme:aterenin/minima-reboot
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
