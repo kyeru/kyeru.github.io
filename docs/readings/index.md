@@ -3,7 +3,6 @@ layout: page
 permalink: /readings/
 ---
 
-- [links](links/)
 - [2023년](2023/)
 - [2022년](2022/)
 - [2021년](2021/)
