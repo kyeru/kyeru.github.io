@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /readings/links/
+permalink: /links/
 ---
 
 - [도시와 야망](https://blog.naver.com/happy_alpaca/221347038144)
