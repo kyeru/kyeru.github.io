@@ -13,27 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: kyeru
-description: kyeru's blog
+title: kyeru.github.io
+author: kyeru
+#description: kyeru's blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kyeru.github.io/"
-github_username: kyeru
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-remote-theme
-# remote_theme: zivhub/monophase@main
+  - jekyll-paginate
 remote_theme: aterenin/minima-reboot
 
+header_pages:
+- about.md
+- posts.md
+
+footer_icons:
+- username: kyeru
+  url: https://kyeru.github.io/
+  icon: icon-github.svg
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
