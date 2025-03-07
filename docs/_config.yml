@@ -23,8 +23,9 @@ markdown: kramdown
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-include-cache
 #remote_theme: aterenin/minima-reboot
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 header_pages:
 - about.md
