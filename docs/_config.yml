@@ -23,7 +23,8 @@ markdown: kramdown
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
-remote_theme: aterenin/minima-reboot
+#remote_theme: aterenin/minima-reboot
+theme: minimal-mistakes-jekyll
 
 header_pages:
 - about.md
