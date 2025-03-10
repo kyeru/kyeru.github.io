@@ -23,7 +23,18 @@ markdown: kramdown
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
-remote_theme: aterenin/minima-reboot
+  - jekyll-sitemap
+
+
+#remote_theme: aterenin/minima-reboot
+
+# chirpy setting begins
+theme: jekyll-theme-chirpy
+lang: ko
+timezone: Asia/Seoul
+
+
+# chirpy setting ends
 
 header_pages:
 - about.md
