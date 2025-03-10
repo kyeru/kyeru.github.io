@@ -23,18 +23,16 @@ markdown: kramdown
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-include-cache
   - jekyll-sitemap
-
-
-#remote_theme: aterenin/minima-reboot
 
 # chirpy setting begins
 theme: jekyll-theme-chirpy
 lang: ko
 timezone: Asia/Seoul
 
-
 # chirpy setting ends
+#remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 header_pages:
 - about.md
