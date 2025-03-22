@@ -1,17 +1,17 @@
 # Configurations
-title: kyeru.github.io
-longtitle:
-author:
-email:
+title:            Jekyll Gitbook
+longtitle:        Jekyll Gitbook
+author:           HE Tao
+email:            sighingnow@gmail.com
 description: >
   Build Jekyll site with the GitBook style.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url: 'https://kyeru.github.io'
+url:              'https://sighingnow.github.io'
 baseurl:          '/jekyll-gitbook'
-#rss:              RSS
+rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
@@ -19,7 +19,7 @@ remote_theme: sighingnow/jekyll-gitbook
 toc:
   enabled: true
   h_min:   1
-  h_max:   2
+  h_max:   3
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path:     /assets/gitbook/images/favicon.ico
@@ -50,29 +50,17 @@ exclude:
   - _drafts
 
 collections:
-  posts:
-    output: true
-    permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:collection/:path/
   others:
     output: true
     permalink: /:collection/:path/
-  readings:
-    output: true
-    permalink: /:collection/:path/
-    nav_exclude: false
-    nav_order: 3
-  old_posts:
-    output: true
-    permalink: /:collection/:path/
-    nav_exclude: true
-    nav_order: false
 
 ordered_collections:
   - posts
   - pages
+#  - others
 
 page_width: 800px
 
