@@ -1,51 +1,86 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Configurations
 title: kyeru.github.io
-author: kyeru
-#description: kyeru's blog
-baseurl: "" # the subpath of your site, e.g. /blog
+longtitle:
+author:
+email:
+description: >
+  Build Jekyll site with the GitBook style.
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-include-cache
-  - jekyll-sitemap
+version:          1.0
+gitbook_version:  3.2.3
 
-# chirpy setting begins
-theme: jekyll-theme-chirpy
-lang: ko
-timezone: Asia/Seoul
+url: 'https://kyeru.github.io'
+baseurl:          '/jekyll-gitbook'
+#rss:              RSS
 
-# chirpy setting ends
-#remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
 
-header_pages:
-- about.md
-- posts.md
+toc:
+  enabled: true
+  h_min:   1
+  h_max:   2
 
-footer_icons:
-- username: kyeru
-  url: https://kyeru.github.io/
-  icon: icon-github.svg
-  
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:                /:categories/:year-:month-:day-:title:output_ext
+
+# Disqus comments
+# disqushandler:            sighingnow
+
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - _drafts
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
+  readings:
+    output: true
+    permalink: /:collection/:path/
+    nav_exclude: false
+    nav_order: 3
+  old_posts:
+    output: true
+    permalink: /:collection/:path/
+    nav_exclude: true
+    nav_order: false
+
+ordered_collections:
+  - posts
+  - pages
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
