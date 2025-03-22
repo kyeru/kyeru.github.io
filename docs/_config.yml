@@ -3,15 +3,14 @@ title: kyeru.github.io
 longtitle:
 author:
 email:
-description: >
-  Build Jekyll site with the GitBook style.
+description:
 
-version:          1.0
-gitbook_version:  3.2.3
+version: 1.0
+gitbook_version: 3.2.3
 
 url: 'https://kyeru.github.io'
-baseurl:          '/jekyll-gitbook'
-#rss:              RSS
+baseurl: ''
+#rss: RSS
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
