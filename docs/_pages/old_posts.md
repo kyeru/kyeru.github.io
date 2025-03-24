@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: home
 title: Old Posts
-nav_order: 4
-nav_exclude: false
 ---
 
 - [2016]({{ site.baseurl }}/old_posts/2016/index)
