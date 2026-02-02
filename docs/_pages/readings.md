@@ -3,6 +3,7 @@ layout: home
 title: Readings
 ---
 
+- [2026년 독서 목록]({{ site.baseurl }}/readings/2026/)
 - [2025년 독서 목록]({{ site.baseurl }}/readings/2025/)
 - [2024년 독서 목록]({{ site.baseurl }}/readings/2024/)
 - [2023년 독서 목록]({{ site.baseurl }}/readings/2023/)
