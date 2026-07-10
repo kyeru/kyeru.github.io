@@ -21,4 +21,4 @@ author: kyeru
 물건을 두고 조문(弔文)을 쓴다는 게 좀 웃긴 일이지만 함께 있던 시간을 생각하면 이 정도 성의는 보여야 하지 않을까 싶다. 지금까지 다른 시계는 물론이고 수많은 전자기기를 써왔지만, 이 녀석처럼 묵묵히 오랫동안 자리를 지킨 물건은 없었다. 방이 조용할 때 째깍째깍 들리는 초침 소리가 제법 좋았는데, 이제는 기억 속에서만 들리는 소리가 됐다.
 
 
-![IMG_9747.jpeg](2026-07-10-farewell-to-my-old-table-clock/IMG_9747.jpeg)
+![clock.jpg](/assets/images/2026-07-10-farewell-to-my-old-table-clock.jpg)
